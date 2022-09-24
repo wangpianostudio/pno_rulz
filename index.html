@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <head>
+        <title>Wangstudio Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="photos/catoriginal.ico">
+    </head>
+    <body>
+        <div class="first">
+            <div class="main-attraction">
+                <div class="box-1">
+                    <h1>Welcome to the Wang Studio's Official Homepage!</h1>
+                    <p1>Here, you can find a lot of tools to help you navigate your way around not just the studio, but the entire Music School! As a new student, you'll definitely have questions from time to time, so add this page to your browser bookmarks for easy access.</p1>
+            
+                    <!--         THESE BUTTONS ARE FOR A BUTTON-CONTROLLED PICTURE GALLERY. CURRENTLY AN AUTOMATIC SLIDESHOW IS BEING USED.
+                    <ul class="btnlst">
+                            <li class="btn active"></li>
+                            <li class="btn"></li>
+                            <li class="btn"></li>
+                            <li class="btn"></li>                     
+                    </ul>
+                    -->
+                </div>
+                
+                <div class="box-2" id="banner">
+                    <div>
+                        <img src="photos/classPhotos/IMG_2869.JPG">
+                    </div>
+                    <div>
+                        <img src="photos/classPhotos/IMG_1951.jpg">
+                    </div>
+                    <div>
+                        <img src="photos/classPhotos/IMG_2864.jpg">
+                    </div>
+                    <div>
+                        <img src="photos/classPhotos/IMG_3287.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <nav>
+                <div class="spacer">
+                    <ul>
+                        <li><a href="subpages/doctorwang.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Dr. Wang</a></li> 
+                        <li><a href="subpages/wangstudiofordummies.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Student Handbook</a></li> 
+                        <li><a href="subpages/studentdirectory.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Student Directory</a></li>  
+                        <li id="home" id="athome">
+                            <a href="index.html" >
+                                <img src="photos/home button.gif" height="auto" width="100%">
+                            </a>
+                        </li>
+                        <li><a href="subpages/performancecalendar.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Performance Calendar</a></li></li>
+                        <li><a href="subpages/photos.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Photos</a>
+                        <li><a href="subpages/contacttheawesomeandpowerfultechnician.html" id="nav" onmouseover = "animation2(this)" onmouseout = "animation3(this)">
+                            Webmaster</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- <div class="notnav-ii">
+            <h2>This website was created by Jasmine Meyer (NU'25, CS & Piano) in 2022 and is currently being maintained by </h2>
+        </div> -->
+
+
+
+
+    <script>
+        // THIS CODE IS FOR A BUTTON-OPERATED PICTURE GALLERY. CURRENTLY AN AUTOMATIC SLIDESHOW IS BEING USED.
+        // var btn = document.getElementsByClassName("btn");
+        var banner = document.getElementById("banner");
+
+        // btn[0].onclick = function(){
+        //     banner.src = "photos/classPhotos/IMG_2869.JPG";
+        //     animation1();
+        //     this.classList.add("active");
+        // }
+        // btn[1].onclick = function(){
+        //     banner.src = "photos/classPhotos/IMG_1951.jpg";
+        //     animation1();
+        //     this.classList.add("active");
+        // }
+        // btn[2].onclick = function(){
+        //     banner.src = "photos/classPhotos/IMG_2864.jpg";
+        //     animation1();
+        //     this.classList.add("active");
+        // }
+        // btn[3].onclick = function(){
+        //     banner.src = "photos/classPhotos/IMG_3287.jpg";
+        //     animation1();
+        //     this.classList.add("active");
+        // }
+
+        // function animation1(){
+        //     banner.classList.add("zoomout");
+        //     setTimeout(function(){
+        //         banner.classList.remove("zoomout")
+        // },500);
+
+        // for(b of btn){
+        //     b.classList.remove("active");
+        // }
+        // }
+
+        function animation2(x){
+            x.classList.add("zoomin");
+            }
+        function animation3(x){
+            x.classList.remove("zoomin");
+            x.classlist.add("zoomout");
+            }
+        
+        
+        
+
+
+    </script>
+    </body>
+    
+   
+</html>
