@@ -451,11 +451,11 @@ h2{
 }
 @media screen and (min-width: 70em){
     h2{
-        font-size:2vw;
+        font-size:1.5vw;
     }
     
     .info{
-        font-size:1.3vw;
+        font-size:1vw;
     }
 }
 .p1{
