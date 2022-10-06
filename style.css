@@ -479,12 +479,12 @@ h2{
 
 }
 
-#wangphoto{
+#wangphoto1{
     padding: 2%;
     align-items:left;
 }
 @media screen and (max-width: 70em){
-    #wangphoto{
+    #wangphoto1{
         width:55vw;
         height:55vw;
         margin-right:auto;
@@ -494,18 +494,40 @@ h2{
     }
 }
 @media screen and (min-width: 70em){
-    #wangphoto{
-        width:30vw;
-        height:30vw;
-        margin-top:auto;
-        margin-bottom:auto;
+    #wangphoto1{
+        width:60vw;
+        height:70vh;
+        margin-right:20px;
     }
 }
 
-#wangimg{
+#wangimg1{
     width:auto;
     max-height:100%;
-    border-radius:20px;
+}
+#wangimg2{
+    width:100%;
+    max-height:auto;
+}
+#wangphoto2{
+    padding: 2%;
+    align-items:left;
+}
+@media screen and (max-width: 70em){
+    #wangphoto2{
+        width:55vw;
+        height:55vw;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+}
+@media screen and (min-width: 70em){
+    #wangphoto2{
+        width:35vw;
+        height:25vh;
+    }
 }
 
 .main-attraction3{
